@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Taste Haven</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 🌐 Navbar -->
+  <header class="navbar">
+    <div class="logo">Taste<span>Haven</span></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🏞️ Menu Hero Banner -->
+  <section class="menu-hero">
+    <div class="menu-hero-overlay">
+      <h1>Our Delicious Menu</h1>
+      <p>Explore a variety of dishes crafted with love and fresh ingredients.</p>
+    </div>
+  </section>
+
+  <!-- 🍽️ Menu Section -->
+  <section class="menu">
+    <h2>Our Delicious Menu</h2>
+
+    <!-- 🍴 Category Filters -->
+    <div class="menu-filters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="starters">Starters</button>
+      <button class="filter-btn" data-category="veg">Veg</button>
+      <button class="filter-btn" data-category="non-veg">Non-Veg</button>
+      <button class="filter-btn" data-category="desserts">Desserts</button>
+      <button class="filter-btn" data-category="beverages">Beverages</button>
+    </div>
+
+    <div class="menu-container">
+
+      <!-- 🥗 Starters -->
+      <div class="menu-item" data-category="starters">
+        <img src="images/chicken-tikka.jpeg" alt="Chicken Tikka">
+        <h3>Chicken Tikka</h3>
+        <p class="menu-desc">Soft, marinated chicken pieces grilled with aromatic Indian spices.</p>
+        <span class="price">₹180</span>
+      </div>
+
+      <div class="menu-item" data-category="starters">
+        <img src="images/grilled chicken.jpeg" alt="Grilled Chicken">
+        <h3>Grilled Chicken</h3>
+        <p class="menu-desc">Juicy grilled chicken and veggies packed in toasted bread with house sauce.</p>
+        <span class="price">₹260</span>
+      </div>
+
+      <div class="menu-item" data-category="starters">
+        <img src="images/panner-tikka.jpeg" alt="Panner Tikka">
+        <h3>Panner Tikka</h3>
+        <p class="menu-desc">Cubes of paneer marinated in yogurt & spices, roasted in a tandoor.</p>
+        <span class="price">₹160</span>
+      </div>
+
+      <div class="menu-item" data-category="starters">
+        <img src="images/tandoori-chicken-starter.jpeg" alt="Tandoori Chicken Starter">
+        <h3>Tandoori Chicken Starter</h3>
+        <p class="menu-desc">Juicy chicken legs marinated overnight and cooked in a clay oven.</p>
+        <span class="price">₹250</span>
+      </div>
+
+      <div class="menu-item" data-category="starters">
+        <img src="images/Tandoori-Mixed-Grill.jpg" alt="Tandoori Mixed Grill">
+        <h3>Tandoori Mixed Grill</h3>
+        <p class="menu-desc">A platter of chicken tikka, kebabs, and grilled veggies.</p>
+        <span class="price">₹320</span>
+      </div>
+
+      <div class="menu-item" data-category="starters">
+        <img src="images/tandoori-prawns.jpeg" alt="Tandoori Prawns">
+        <h3>Tandoori Prawns</h3>
+        <p class="menu-desc">Fresh prawns marinated with masala and grilled with a smoky finish.</p>
+        <span class="price">₹300</span>
+      </div>
+
+      <!-- 🍰 Desserts -->
+      <div class="menu-item" data-category="desserts">
+        <img src="images/chocolate lava cake.jpeg" alt="Chocolate Lava Cake">
+        <h3>Chocolate Lava Cake</h3>
+        <p class="menu-desc">Warm chocolate cake with a gooey molten center.</p>
+        <span class="price">₹150</span>
+      </div>
+
+      <div class="menu-item" data-category="desserts">
+        <img src="images/chocolate vanilla cake.jpeg" alt="Chocolate Vanilla Cake">
+        <h3>Chocolate Vanilla Cake</h3>
+        <p class="menu-desc">Soft layered cake with rich chocolate and vanilla cream.</p>
+        <span class="price">₹140</span>
+      </div>
+
+      <div class="menu-item" data-category="desserts">
+        <img src="images/dream-chocolate-cake.webp" alt="Dream Chocolate Cake">
+        <h3>Dream Chocolate Cake</h3>
+        <p class="menu-desc">Moist dark chocolate cake topped with silky chocolate frosting.</p>
+        <span class="price">₹160</span>
+      </div>
+
+      <div class="menu-item" data-category="desserts">
+        <img src="images/gulab jamun cake tub.jpeg" alt="GulabJamun Cake Tub">
+        <h3>Gulab Jamun Cake Tub</h3>
+        <p class="menu-desc">Fusion dessert with crumbled gulab jamun layered in creamy cake.</p>
+        <span class="price">₹170</span>
+      </div>
+
+      <div class="menu-item" data-category="desserts">
+        <img src="images/gulab jamun with ice cream.jpeg" alt="GulabJamun With Ice Cream">
+        <h3>GulabJamun With Ice Cream</h3>
+        <p class="menu-desc">Hot gulab jamun served with vanilla ice cream.</p>
+        <span class="price">₹140</span>
+      </div>
+
+      <div class="menu-item" data-category="desserts">
+        <img src="images/jalebi.jpeg" alt="Jalebi">
+        <h3>Jalebi</h3>
+        <p class="menu-desc">Crispy and juicy jalebi dipped in aromatic sugar syrup.</p>
+        <span class="price">₹120</span>
+      </div>
+
+      <!-- ☕ Beverages -->
+      
+      <div class="menu-item" data-category="beverages">
+        <img src="images/boba tea.jpeg" alt="Boba Tea">
+        <h3>Boba Tea</h3>
+        <p class="menu-desc">Milk tea with chewy tapioca pearls and a sweet creamy taste.</p>
+        <span class="price">₹120</span>
+      </div>
+
+      <div class="menu-item" data-category="beverages">
+        <img src="images/strawberry bubble tea.jpeg" alt="Strawberry Bubble Tea">
+        <h3>Strawberry Bubble Tea</h3>
+        <p class="menu-desc">Fresh strawberry flavor mixed with boba pearls.</p>
+        <span class="price">₹130</span>
+      </div>
+
+      <div class="menu-item" data-category="beverages">
+        <img src="images/coco cola drink.jpeg" alt="Coco Cola Drink">
+        <h3>Coco Cola Drink</h3>
+        <p class="menu-desc">Classic carbonated soft drink served chilled.</p>
+        <span class="price">₹40</span>
+      </div>
+
+      <div class="menu-item" data-category="beverages">
+        <img src="images/sprit soda.avif" alt="Sprit Soda">
+        <h3>Sprit Soda</h3>
+        <p class="menu-desc">Refreshing lemon-lime fizzy drink.</p>
+        <span class="price">₹80</span>
+      </div>
+
+      <div class="menu-item" data-category="beverages">
+        <img src="images/sprit.png" alt="Sprit">
+        <h3>Sprit</h3>
+        <p class="menu-desc">Chilled aerated soft drink with lemon flavor.</p>
+        <span class="price">₹40</span>
+      </div>
+
+
+      <!-- Veg Dishes -->
+      <div class="menu-item" data-category="veg">
+        <img src="images/paneer-butter-masala.jpg" alt="Paneer Butter Masala">
+        <h3>Paneer Butter Masala</h3>
+        <p class="menu-desc">Paneer cooked in a creamy tomato-butter gravy with mild spices.</p>
+        <span class="price">₹180</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/panner-pizza.jpeg" alt="Paneer Pizza">
+        <h3>Paneer Pizza</h3>
+        <p class="menu-desc">Soft pizza crust topped with cheese and spicy paneer cubes.</p>
+        <span class="price">₹160</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/veg-biryani.jpeg" alt="Veg Biryani">
+        <h3>Veg Biryani</h3>
+        <p class="menu-desc">Aromatic basmati rice with mixed vegetables and biryani spices.</p>
+        <span class="price">₹160</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/veg-hakka-noodles.webp" alt="Hakka Noodles">
+        <h3>Hakka Noodles</h3>
+        <p class="menu-desc">Stir-fried noodles with fresh veggies and light soy seasoning.</p>
+        <span class="price">₹130</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/cheese pizza.jpg" alt="Cheese Pizza">
+        <h3>Cheese Pizza</h3>
+        <p class="menu-desc">Classic pizza loaded with melted mozzarella cheese.</p>
+        <span class="price">₹170</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/cheese-corn-pizza.jpeg" alt="Cheese Corn Pizza">
+        <h3>Cheese Corn Pizza</h3>
+        <p class="menu-desc">Soft cheesy pizza topped with sweet corn kernels.</p>
+        <span class="price">₹160</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/babycorn-mushroom-pizza.jpeg" alt="Babycorn Mushroom Pizza">
+        <h3>Babycorn Mushroom Pizza</h3>
+        <p class="menu-desc">Fresh mushrooms and crunchy babycorn on a cheesy base.</p>
+        <span class="price">₹150</span>
+      </div>
+      <div class="menu-item" data-category="veg">
+        <img src="images/mushroom-biryani.jpeg" alt="Mushroom Biryani">
+        <h3>Mushroom Biryani</h3>
+        <p class="menu-desc">Flavorful biryani made with fresh mushrooms and spices.</p>
+        <span class="price">₹170</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/paneer-biryani.jpeg" alt="Paneer Biryani">
+        <h3>Paneer Biryani</h3>
+        <p class="menu-desc">Soft paneer cubes cooked with aromatic basmati biryani rice.</p>
+        <span class="price">₹160</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/pasta alfredo.jpeg" alt="Pasta Alfredo">
+        <h3>Pasta Alfredo</h3>
+        <p class="menu-desc">Creamy white-sauce pasta made with butter, garlic, and herbs.</p>
+        <span class="price">₹150</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/veggieburger.jpg" alt="Veg Burger">
+        <h3>Veg Burger</h3>
+        <p class="menu-desc">Crispy vegetable patty topped with cheese, sauces, and veggies.</p>
+        <span class="price">₹120</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/veg-sandwich.jpg" alt="Veg Sandwich">
+        <h3>Veg Sandwich</h3>
+        <p class="menu-desc">Toasted bread with fresh veggies, cheese, and special sauce.</p>
+        <span class="price">₹110</span>
+      </div>
+
+      <div class="menu-item" data-category="veg">
+        <img src="images/babycorn-pizza.jpeg" alt="Babycorn Pizza">
+        <h3>Babycorn Pizza</h3>
+        <p class="menu-desc">Cheesy pizza topped with tender babycorn and herbs.</p>
+        <span class="price">₹150</span>
+      </div>
+
+      <!-- Non-Veg Dishes -->
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/Mixed-Non-Veg-Biryani.jpg" alt="Mixed Non Veg Biryani">
+        <h3>Mixed Non Veg Biryani</h3>
+        <p class="menu-desc">Combination of chicken, mutton, and egg cooked in aromatic biryani rice.</p>
+        <span class="price">₹320</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/chicken-tandoori-vegbiryani.jpg" alt="Chicken Tandoori with Veg Biryani">
+        <h3>Chicken Tandoori with Veg Biryani</h3>
+        <p class="menu-desc">Whole tandoori chicken leg served with hot vegetable biryani.</p>
+        <span class="price">₹280</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/tandoori-chicken-pizza.jpeg" alt="Tandoori Chicken Pizza">
+        <h3>Tandoori Chicken Pizza</h3>
+        <p class="menu-desc">Pizza topped with spicy tandoori chicken and melted cheese.</p>
+        <span class="price">₹260</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/chicken-dum-biryani.jpg" alt="Chicken Dum Biryani">
+        <h3>Chicken Dum Biryani</h3>
+        <p class="menu-desc">Slow-cooked dum biryani with tender chicken and rich spices.</p>
+        <span class="price">₹250</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/arabian-chicken-mandi.jpeg" alt="Arabian Chicken Mandi">
+        <h3>Arabian Chicken Mandi</h3>
+        <p class="menu-desc">Flavorful Arabian-style rice served with roasted chicken.</p>
+        <span class="price">₹270</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/chicken-burger.jpeg" alt="Chicken  Burger">
+        <h3>Chicken Burger</h3>
+        <p class="menu-desc">Juicy chicken patty with lettuce, cheese, and sauces.</p>
+        <span class="price">₹150</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/chicken-keema-rice.jpeg" alt="Chicken Keema Rice">
+        <h3>Chicken Keema Rice</h3>
+        <p class="menu-desc">Minced chicken cooked with spices served over steamed rice.</p>
+        <span class="price">₹210</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/chicken-pizza.jpeg" alt="Chicken Pizza">
+        <h3>Chicken Pizza</h3>
+        <p class="menu-desc">Loaded juicy chicken chunks on cheesy soft pizza crust.</p>
+        <span class="price">₹220</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/crab-biryani.jpeg" alt="Crab Biryani">
+        <h3>Crab Biryani</h3>
+        <p class="menu-desc">Aromatic biryani cooked with fresh crab and coastal spices.</p>
+        <span class="price">₹330</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/egg-biryani.jpeg" alt="Egg Biryani">
+        <h3>Egg Biryani</h3>
+        <p class="menu-desc">Boiled eggs tossed in biryani spices with fragrant basmati rice.</p>
+        <span class="price">₹140</span>
+      </div>
+      
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/fish-biryani-with-raita.webp" alt="Fish Biryani With Raita">
+        <h3>Fish Biryani With Raita</h3>
+        <p class="menu-desc">Spicy fish biryani served with chilled raita.</p>
+        <span class="price">₹260</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/grilled-chicken-sandwich.jpeg" alt="Grilled Chicken Sandwich">
+        <h3>Grilled Chicken Sandwich</h3>
+        <p class="menu-desc">Grilled chicken stuffed between toasted bread with veggies & sauce.</p>
+        <span class="price">₹150</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/mutton-dum-biryani.jpeg" alt="Mutton Dum Biryani">
+        <h3>Mutton Dum Biryani</h3>
+        <p class="menu-desc">Tender mutton cooked on dum with authentic biryani spices.</p>
+        <span class="price">₹290</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/mutton-keema-biryani.jpeg" alt="Mutton Keema Biryani">
+        <h3>Mutton Keema Biryani</h3>
+        <p class="menu-desc">Biryani rice cooked with minced mutton and rich spices.</p>
+        <span class="price">₹260</span>
+      </div>
+
+      <div class="menu-item" data-category="non-veg">
+        <img src="images/prawn-dum-biryani.jpeg" alt="Prawn Dum Biryani">
+        <h3>Prawn Dum Biryani</h3>
+        <p class="menu-desc">Aromatic biryani layered with flavorful prawn masala.</p>
+        <span class="price">₹310</span>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Taste Haven | Designed with ❤️ by Yamini</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
