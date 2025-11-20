@@ -66,8 +66,7 @@ taste-heaven/
 
 Here is a quick preview of how my website looks:
 
-![Demo GIF](images/demo.gif)
-
+![Demo GIF] (images/demo.gif)
 
 ## 📸 Screenshots
 
@@ -91,6 +90,7 @@ Here is a quick preview of how my website looks:
 Taste Heaven – Restaurant Web Project (2025)
 
 ---
+
 
 
 
