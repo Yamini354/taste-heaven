@@ -62,6 +62,12 @@ taste-heaven/
 
 ---
 
+## 🎥 GIF Demo
+
+Here is a quick demo of how the Taste Heaven website works:
+
+![Taste Heaven Demo](images/demo.gif)
+
 ## 📸 Screenshots
 
 *(Optional – If you want, I can add screenshots here. Just upload the images.)*
@@ -84,3 +90,4 @@ taste-heaven/
 Taste Heaven – Restaurant Web Project (2025)
 
 ---
+
