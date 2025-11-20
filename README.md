@@ -1,47 +1,84 @@
-# 🍴 Taste Haven – Restaurant Website
+# 🍽️ Taste Heaven – Restaurant Website
 
-A modern, responsive restaurant website built using **HTML**, **CSS**, and **JavaScript**.  
-Designed and developed by **Yamini Golla** for portfolio presentation.
-
----
-
-## 🌐 Features
-- Responsive and mobile-friendly layout  
-- Interactive booking form  
-- Stylish navigation bar  
-- Special dishes and menu pages  
-- Contact form with JavaScript alert confirmation  
+Taste Heaven is a modern, responsive restaurant website designed to showcase a restaurant’s menu, services, and contact information in a clean and visually appealing way.
+This project is built using **HTML, CSS, and JavaScript**, suitable for portfolio and learning purposes.
 
 ---
 
-## 🧱 Folder Structure
+## 🌟 Features
 
-taste-haven/
-├── index.html
-├── menu.html
-├── about.html
-├── contact.html
-├── styles.css
-├── script.js
+* ✔️ Fully responsive layout
+* ✔️ Clean and modern UI design
+* ✔️ Multi-page website (Home, Menu, About, Contact)
+* ✔️ Interactive form with JavaScript alert
+* ✔️ Easy-to-understand folder structure
+* ✔️ Lightweight and fast loading
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML5** – Website structure
+* **CSS3** – Styling, layout & responsiveness
+* **JavaScript** – Interactivity & form handling
+* **Images** – Used for UI enhancement
+
+---
+
+## 📂 Folder Structure
+
+```
+taste-heaven/
+│── index.html
+│── menu.html
+│── about.html
+│── contact.html
+│── styles.css
+│── script.js
 └── images/
-
-
----
-
-## 🚀 How to Run Locally
-1. Download or clone this repository  
-2. Open `index.html` in any browser  
-3. Explore the website  
+     ├── image1.jpg
+     ├── image2.jpg
+     └── ...
+```
 
 ---
 
-## 💻 Technologies Used
-- HTML5  
-- CSS3 (Flexbox + Responsive design)  
-- JavaScript (Form validation + Interactions)
+## 🚀 How to Run the Project
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Yamini354/taste-heaven.git
+   ```
+
+2. **Open the folder**
+
+   ```bash
+   cd taste-heaven
+   ```
+
+3. **Open the website**
+   Open `index.html` in any browser (Chrome, Edge, Firefox, etc.)
 
 ---
 
-## ❤️ Credits
-Created by **Yamini Golla** © 2025  
-All images used are for demo purposes only.
+## 📸 Screenshots
+
+*(Optional – If you want, I can add screenshots here. Just upload the images.)*
+
+---
+
+## ✨ Future Enhancements
+
+* Add backend for booking system
+* Add animations to UI
+* Add online food ordering page
+* Add dark mode
+* Add database (MySQL/MongoDB)
+
+---
+
+## 👩‍💻 Author
+
+**Yamini Golla**
+Taste Heaven – Restaurant Web Project (2025)
